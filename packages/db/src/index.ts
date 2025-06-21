@@ -1,3 +1,4 @@
+import 'dotenv/config';
 import { drizzle } from "drizzle-orm/node-postgres";
 import { Pool } from "pg";
 // @ts-expect-error - schema is a module
